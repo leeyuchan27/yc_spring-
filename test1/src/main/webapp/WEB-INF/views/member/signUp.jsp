@@ -13,11 +13,6 @@
 			연락처: <input type="tel" name="tel"> <br>
 			생년월일: <input type="text" name="birth"> <br>
 			<button>가입</button>
-			
-		
-		
-		
-		
 		</form>
 </body>
 </html>

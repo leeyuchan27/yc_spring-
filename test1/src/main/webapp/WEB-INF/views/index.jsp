@@ -7,11 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> 나는 login </h1>
-	<form method="post" action="/login">
-		<input type="text" name="userId"><br>
-		<input type="password" name="userPw"><br>
-		<button>로그인</button>
-	</form>
+	
+	<h1>${pageTitle}</h1>
+	
+	<a href="/login">로그인</a>
+	<a href="/signUp">회원가입</a>
+	<a href="/board">게시판</a>
+	
 </body>
 </html>
