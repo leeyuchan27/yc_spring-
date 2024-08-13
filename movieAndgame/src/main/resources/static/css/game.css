@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+
+
+
+
+#userALogo .logo{
+	background:url(/image/gamebk.png) no-repeat center;
+	background-size:cover;
+	height:50px;
+	width:200px;
+}

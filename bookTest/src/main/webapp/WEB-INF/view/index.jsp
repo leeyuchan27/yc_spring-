@@ -17,7 +17,7 @@
 		
 		<div id="mainTitle">
 			<h3>등록 도서 목록</h3>
-			<a href="/bookWrite" id="enroll">도서등록</a>
+			<a href="/book/view?id=${row.bookId }">도서등록</a>
 		</div>
 		<div id="bookListWrap">
 			<ul id="bookList">

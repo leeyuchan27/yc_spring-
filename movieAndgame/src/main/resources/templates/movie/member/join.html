@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{movie/default}">
+	
+<head>
+	<title layout:fragment="title">영화 회원가입</title>
+	
+	<th:block layout:fragment="css">
+		<link rel="stylesheet"	href=
+	
+	</th:block>
+	<th:blokc layout:fragment="script">
+	<script src="/js/join.js"></script>
+</th:block>	
+	
+</head>
+		
+		
+	<div layout:fragment="main" id="main">
+	
+		<form method="post"action="/movie/signUp" th:object="${movieMember}">
+		
+			<div id="formData">
+				<div class="inputField">
+					<input type="email" th:field="*{email}">
+					<label th:for="email">비밀번호</label>
+				</div>
+					<div class="inputField">
+					<input type="">
+					<label th:for=""></label>
+				</div>
+					<div class="inputField">
+					<input type="">
+					<label th:for=""></label>
+				</div>
+					<div class="inputField">
+					<input type="">
+					<label th:for=""></label>
+				</div>
+					<div class="inputField">
+					<input type="">
+					<label th:for=""></label>
+				</div>
+					<div class="inputField">
+					<input type="">
+					<label th:for=""></label>
+				</div>
+			
+			</div>
+		
+		
+		</form>
+	
+	</div>
+
+
+
+
+
+
+</html>
